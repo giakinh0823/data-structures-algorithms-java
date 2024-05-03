@@ -35,5 +35,7 @@ public class Main {
         System.out.println("Head: " + linkedList.getHead());
         System.out.println("Tail: " + linkedList.getTail());
         System.out.println("Length: " + linkedList.getLength());
+
+        System.out.println(linkedList.hasLoop());
     }
 }
