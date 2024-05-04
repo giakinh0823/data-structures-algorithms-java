@@ -136,9 +136,15 @@ public class DoublyLinkedList {
     }
 
     public Node remove(int index) {
-        if(index < 0 || index >= length) return null;
-        if(index == 0) return removeFirst();
-        if(index == length - 1) return removeLast();
+        if (index < 0 || index >= length) {
+            return null;
+        }
+        if (index == 0) {
+            return removeFirst();
+        }
+        if (index == length - 1) {
+            return removeLast();
+        }
 
         Node temp = get(index);
 
@@ -149,6 +155,78 @@ public class DoublyLinkedList {
 
         length--;
         return temp;
+    }
+
+    public void reverse() {
+        Node current = head;
+        Node temp = null;
+
+        while (current != null) {
+            temp = current.prev;
+            current.prev = current.next;
+            current.next = temp;
+            current = current.prev;
+        }
+
+        temp = head;
+        head = tail;
+        tail = temp;
+    }
+
+    public void swapFirstLast() {
+        if (length < 2) {
+            return;
+        }
+        int temp = head.value;
+        head.value = tail.value;
+        tail.value = temp;
+    }
+
+    public boolean isPalindrome() {
+        if (length <= 1) {
+            return true;
+        }
+
+        Node forwardNode = head;
+        Node backwardNode = tail;
+        for (int i = 0; i < length / 2; i++) {
+            if (forwardNode.value != backwardNode.value) {
+                return false;
+            }
+            forwardNode = forwardNode.next;
+            backwardNode = backwardNode.prev;
+        }
+        return true;
+    }
+
+    public void swapPairs() {
+        Node dummyNode = new Node(0);
+        dummyNode.next = head;
+        Node previousNode = dummyNode;
+
+        while (head != null && head.next != null) {
+            Node firstNode = head;
+            Node secondNode = head.next;
+
+            previousNode.next = secondNode;
+            firstNode.next = secondNode.next;
+            secondNode.next = firstNode;
+
+            secondNode.prev = previousNode;
+            firstNode.prev = secondNode;
+
+            if (firstNode.next != null) {
+                firstNode.next.prev = firstNode;
+            }
+
+            head = firstNode.next;
+            previousNode = firstNode;
+        }
+
+        head = dummyNode.next;
+        if (head != null) {
+            head.prev = null;
+        }
     }
 
     public int getHead() {
