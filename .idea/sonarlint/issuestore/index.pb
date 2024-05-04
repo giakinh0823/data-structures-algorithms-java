@@ -16,3 +16,7 @@ s
 Csrc/main/java/gurucoding/org/doubleLinkedList/DoublyLinkedList.java,0\6\06df7b6c6a68bc1d699086f0519435b125592a65
 g
 7src/main/java/gurucoding/org/doubleLinkedList/Main.java,5\d\5d5f3c7f7bcca88edd4d36b34bf62e11b2f723bc
+s
+Csrc/main/java/gurucoding/org/doublyLinkedList/DoublyLinkedList.java,0\a\0a7a7163f81f57595e94fe9d7f8b4e998e3cda5e
+g
+7src/main/java/gurucoding/org/doublyLinkedList/Main.java,8\d\8d4e7cb56290532b93978f103c3b77a59ffc4f3e

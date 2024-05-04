@@ -1,4 +1,4 @@
-package gurucoding.org.doubleLinkedList;
+package gurucoding.org.doublyLinkedList;
 
 public class DoublyLinkedList {
 
