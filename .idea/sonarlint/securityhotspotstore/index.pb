@@ -1,6 +1,4 @@
 
-V
-&src/main/java/gurucoding/org/Main.java,3\1\3133c54dd25ebf5552e7958e81d0562c02d0845f
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 :
@@ -11,10 +9,4 @@ d
 g
 7src/main/java/gurucoding/org/linkedList/LinkedList.java,8\a\8a8fd5cc8dc6ac5e904910ffa01e9a12d3a58771
 a
-1src/main/java/gurucoding/org/linkedList/Node.java,1\c\1c651e13f66f1f379eb7c5db0a8fa32e97e403f7
-a
 1src/main/java/gurucoding/org/linkedList/Main.java,8\f\8ff50455debe6ae4567935540f3fa59b294a2845
-s
-Csrc/main/java/gurucoding/org/doubleLinkedList/DoubleLinkedList.java,a\5\a582f176b11fcc86a81e9db395ab50f0071bdb35
-s
-Csrc/main/java/gurucoding/org/doubleLinkedList/DoublyLinkedList.java,0\6\06df7b6c6a68bc1d699086f0519435b125592a65

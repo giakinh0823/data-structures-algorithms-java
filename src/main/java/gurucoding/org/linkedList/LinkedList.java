@@ -1,5 +1,8 @@
 package gurucoding.org.linkedList;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class LinkedList {
 
     private Node head;
@@ -230,6 +233,55 @@ public class LinkedList {
         prev1.next = dummy2.next;
 
         head = dummy1.next;
+    }
+
+    public void removeDuplicates() {
+        Set<Integer> values = new HashSet<>();
+        Node previous = null;
+        Node current = head;
+        while (current != null) {
+            if (values.contains(current.value)) {
+                previous.next = current.next;
+                length -= 1;
+            } else {
+                values.add(current.value);
+                previous = current;
+            }
+            current = current.next;
+        }
+    }
+
+    public int binaryToDecimal() {
+        int num = 0;
+        Node current = head;
+        while (current != null) {
+            num = num * 2 + current.value;
+            current = current.next;
+        }
+        return num;
+    }
+
+    public void reverseBetween(int startIndex, int endIndex) {
+        if (head == null) return;
+
+        Node dummyNode = new Node(0);
+        dummyNode.next = head;
+        Node previousNode = dummyNode;
+
+        for (int i = 0; i < startIndex; i++) {
+            previousNode = previousNode.next;
+        }
+
+        Node currentNode = previousNode.next;
+
+        for (int i = 0; i < endIndex - startIndex; i++) {
+            Node nodeToMove = currentNode.next;
+            currentNode.next = nodeToMove.next;
+            nodeToMove.next = previousNode.next;
+            previousNode.next = nodeToMove;
+        }
+
+        head = dummyNode.next;
     }
 
     public int getHead() {
