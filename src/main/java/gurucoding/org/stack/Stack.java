@@ -26,12 +26,14 @@ public class Stack {
             node.next = top;
         }
         top = node;
+        height++;
     }
 
     public Node pop() {
         Node temp = top;
         top = top.next;
         temp.next = null;
+        height--;
         return temp;
     }
 
