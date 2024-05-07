@@ -22,3 +22,7 @@ g
 ,src/main/java/gurucoding/org/queue/Main.java,7\e\7ebf71337e1a5d04e100764f81c77a77015ec7a1
 k
 ;src/main/java/gurucoding/org/stack/ParenthesesBalanced.java,6\0\6048b90e501dc7a70e238325d1f9f9d87448d0ba
+g
+7src/main/java/gurucoding/org/tree/BinarySearchTree.java,1\d\1df5eb0086fc9c3e579eedb608bda96c1d78c394
+[
++src/main/java/gurucoding/org/tree/Main.java,4\b\4b46d3375e8df366dc6803ae0e7eb6b65ff67d40
