@@ -28,13 +28,13 @@ public class Main {
         heap1.insert(65);
         System.out.println(heap1.getHeap());
 
-        heap1.remove();
+        System.out.println(heap1.remove());
         System.out.println(heap1.getHeap());
 
-        heap1.remove();
+        System.out.println(heap1.remove());
         System.out.println(heap1.getHeap());
 
-        heap1.remove();
+        System.out.println(heap1.remove());
         System.out.println(heap1.getHeap());
     }
 }
