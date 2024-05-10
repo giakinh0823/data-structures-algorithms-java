@@ -22,10 +22,6 @@ g
 ,src/main/java/gurucoding/org/queue/Main.java,7\e\7ebf71337e1a5d04e100764f81c77a77015ec7a1
 k
 ;src/main/java/gurucoding/org/stack/ParenthesesBalanced.java,6\0\6048b90e501dc7a70e238325d1f9f9d87448d0ba
-g
-7src/main/java/gurucoding/org/tree/BinarySearchTree.java,1\d\1df5eb0086fc9c3e579eedb608bda96c1d78c394
-[
-+src/main/java/gurucoding/org/tree/Main.java,4\b\4b46d3375e8df366dc6803ae0e7eb6b65ff67d40
 ]
 -src/main/java/gurucoding/org/neovim/Main.java,9\f\9fc1601017242d9b28b1014062160e0993090eeb
 e
@@ -40,8 +36,6 @@ e
 +src/main/java/gurucoding/org/heap/Heap.java,2\4\24fc4f57c770317127d1f4576cb37ea8ce76bffc
 [
 +src/main/java/gurucoding/org/heap/Main.java,4\3\4309717142691e60dc610d8661d75a11228d9c75
-e
-5src/main/java/gurucoding/org/recursion/Factorial.java,6\6\662cfba4720eafe637c649faad207a88d3e4740c
 k
 ;src/main/java/gurucoding/org/recursion/basic/Factorial.java,0\c\0c65cca7e77794359665f3302dfc18371d309fcf
 y
@@ -52,11 +46,9 @@ h
 8src/main/java/gurucoding/org/tree/binarySearch/Main.java,e\8\e8ddb2c981d8bd909454c3860de78094bbcf9907
 t
 Dsrc/main/java/gurucoding/org/tree/binarySearch/BinarySearchTree.java,8\7\871c5e5bbab697888aa7aa0449652b82f02a6362
-k
-;src/main/java/gurucoding/org/tree/bfs/BinarySearchTree.java,e\a\ea2137bd4dcab8982e04925650eaafc1e733b267
-_
-/src/main/java/gurucoding/org/tree/bfs/Main.java,c\d\cd12800413028669d92398ffbd20f35cce1ef814
 e
 5src/main/java/gurucoding/org/tree/bfsAndDfs/Main.java,2\1\21dbef159d794288bbc1e580b0a706c3c128a578
 q
 Asrc/main/java/gurucoding/org/tree/bfsAndDfs/BinarySearchTree.java,5\9\59a7e690ec03087cc49df5f1d8ab4adf678dca29
+c
+3src/main/java/gurucoding/org/dynamic/Fibonacci.java,c\5\c53acd97685dd66a901098d4d6b3520a20e29919
