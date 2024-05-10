@@ -1,4 +1,4 @@
-package gurucoding.org.recursion;
+package gurucoding.org.recursion.basic;
 
 public class Factorial {
 
