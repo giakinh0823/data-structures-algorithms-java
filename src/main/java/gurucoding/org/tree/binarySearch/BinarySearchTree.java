@@ -1,4 +1,4 @@
-package gurucoding.org.tree;
+package gurucoding.org.tree.binarySearch;
 
 public class BinarySearchTree {
 
